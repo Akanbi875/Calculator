@@ -2,17 +2,10 @@ body {
     background-color: skyblue;
 }
 
-
-h1 {
-    color: black;
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .button-container {
-    text-align: center;
     border: skyblue 20px solid;
+    max-width: 800px;  
+    gap: 20px;
 }
 
 .display {
@@ -20,7 +13,6 @@ h1 {
     border: skyblue 10px solid;
     border-radius: 20px;
     height: 100px;
-    margin: 0 auto 5px auto;
     width: 400px;
 }
 
@@ -28,14 +20,21 @@ h1 {
 button {
     background-color: aliceblue;
     margin: 20px 0 0 0;
-    border-radius: 70px;
+    border-radius: 30px;
     color: slateblue;
     font-size: 38px;
     padding: 20px;
     width: 100px;
     height: 100px;
+    margin-right: 40px;
     border: aliceblue 20px solid;
+    overflow: hidden;
 }
 button:hover {
     background-color: rgba(255, 255, 255, 0.945);
+}
+
+@media screen and ( max-width: 650px) {
+    
+    
 }
